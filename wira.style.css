@@ -29,17 +29,20 @@ body{
     padding: 5px 10px;
     font-size: 10px;
 }
-menu li a:hover{
-    background:#7777;
-    transition: .4s;
-    columns: #001100;;
-}
-br{
-    color:black;
+
+
+.common-btn{
+    padding: 18px;
+    background: transparent;
+    outline: none;
+    border:2px solid midnightblue;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 50px;
 }
  /*----Carousel Styling----*/
  .slide1{
-    background-image: url('pic4.jpg');
+    background-image: url('pic6.jpg');
     height:400px;
     background-repeat: no-repeat;
     background-position: center;
@@ -53,7 +56,21 @@ br{
     background-size:700px;
 }
 .slide3{
+    background-image: url('pic4.jpg');
+    height:400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:700px;
+}
+.slide4{
     background-image: url('pic3.jpg');
+    height:400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:700px;
+}
+.slide5{
+    background-image: url('pic5.jpg');
     height:400px;
     background-repeat: no-repeat;
     background-position: center;
@@ -72,3 +89,188 @@ br{
 #myCarousel{
     padding-top: 100px;
 }
+.line-1{
+    width:15px;
+    height:15px;
+    display:inline-block;
+    background: midnightblue;
+}
+.line-2{
+    width:80px;
+    height:1px;
+    display:inline-block;
+    background:midnightblue;
+}
+.line-3{
+    width:60px;
+    height:1px;
+    display:inline-block;
+    background:midnightblue;
+}
+.line{
+    line-height:8px;
+}
+.container{
+    padding-top: 50px;
+}
+/*----about----*/
+
+#services{
+    padding:100px 0;
+    display: flex;
+    align-items:center;
+    flex-wrap:wrap;
+
+}
+.services-left-col{
+    flex-basis:50%;
+    width: 50px;
+}
+.services-right-col{
+    width:100%;
+}
+.services-right-col{
+    flex-basis:50%;
+    text-align: right;
+}
+.services-text{
+    max-width: 500px;
+    margin-right:100px;
+    display:inline-block;
+    font-size: 15px;
+}
+.services-text h2 {
+    margin:50px 0 20px;
+    font-size: 20px;
+    font-style: italic;
+}
+.services-text h3 {
+    font-size: 20px;
+    font-style: italic;
+    color: #797979;
+}
+.logo2{
+    width: 550px;
+    margin: 30px;
+}
+.logo3,.logo4,.logo5{
+    width:100px;
+}
+
+/*----features----*/
+
+#features{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+.feature-row{
+    width:80%;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.feature-col{
+    flex-basis:25%;
+    text-align:center;
+}
+.feature-col h4{
+    margin-bottom:15px;
+    font-size:20px;
+    font-weight:400;
+    color: midnightblue;
+}
+.feature-btn{
+    margin:80px auto 0;
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+}
+.feature-btn line{
+    text-align: right;
+    display: inline-block;
+    margin-right: 25px;
+}
+.feature-col p{
+    font-size: 15px;
+}
+
+/*----footer-----*/
+
+#footer{
+    padding:50px 0 30px;
+}
+hr{
+    width:100%;
+    border:0;
+    border-top:1px solid midnightblue;
+}
+.footer-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.footer-left-col{
+    flex-basis:50%;
+    margin-top: 50px;
+
+}
+.footer-right-col{
+    flex-basis:35%;
+}
+.footer-links{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.link-title h4{
+    color:brown;
+    margin-bottom: 20px;
+}
+.link-title small{
+    font-size:13px;
+    color: #777;
+
+}
+.footer-info{
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.footer-logo button{
+    padding:12px 38px;
+    margin-top:20px;
+    font-size:20px;
+}
+.copyright-text,.footer-logo{
+    flex-basis: 40%;
+    font-size: 15px;
+}
+
+/*----social-icons----*/
+
+.social-icons{
+    width:50px;
+    position:fixed;
+    top:50%;
+    left:0;
+    transform:translateY(-50%);
+    z-index:1;
+}
+.social-icons logo6{
+    display:block;
+    width:5px;
+    margin:0 auto 20px;
+    cursor:pointer;
+}
+.logo6{
+    width:50px;
+    padding: 10px;
+}
+.logo7{
+    width:30px;
+}
+
